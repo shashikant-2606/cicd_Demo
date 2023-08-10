@@ -16,7 +16,7 @@ public class Base_class
   {
 	  System.setProperty("webdriver.chrome.driver", "C:\\Users\\My_Work\\Desktop\\Villeos_project\\cicdpractice\\driver\\chromedriver_win32\\chromedriver.exe");
 	  driver=new ChromeDriver();
-	  driver.get("https://www.browserstack.com/");
+	  driver.get("https://www.browserstack.com");
 	  
   }
 	  @Test
@@ -25,20 +25,15 @@ public class Base_class
 		  
 	  System.setProperty("webdriver.gecko.driver", "C:\\Users\\My_Work\\Desktop\\Villeos_project\\cicdpractice\\driver\\geckodriver.exe");
 	  driver=new FirefoxDriver();
-	  driver.get("https://www.browserstack.com/");
+	  driver.get("https://www.browserstack.com");
 	  }
 	  @Test
 	  public void setup3()
 	  {
 	  System.setProperty("webdriver.edge.driver", "C:\\Users\\My_Work\\Desktop\\Villeos_project\\cicdpractice\\driver\\msedgedriver.exe");
 	  driver=new EdgeDriver();
-	  driver.get("https://www.browserstack.com/");
+	  driver.get("https://www.browserstack.com");
   }
 
-  @AfterTest
-  public void TearDown()
-  {
-	  driver.quit();
-  }
 
 }
