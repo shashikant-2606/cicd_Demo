@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -109,6 +109,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.villeos.Villeos_Web_app.Base_class" class="method navigator-link" hash-for-method="setup2">setup2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.villeos.Villeos_Web_app.Base_class" class="method navigator-link" hash-for-method="setup3">setup3</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -141,6 +146,13 @@
                   <a name="setup2">
                   </a> <!-- setup2 -->
                   <span class="method-name">setup2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setup3">
+                  </a> <!-- setup3 -->
+                  <span class="method-name">setup3</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -197,20 +209,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'setup2')
 data.setCell(0, 2, 'com.villeos.Villeos_Web_app.Base_class')
-data.setCell(0, 3, 18314);
+data.setCell(0, 3, 24419);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'Setup1')
 data.setCell(1, 2, 'com.villeos.Villeos_Web_app.Base_class')
-data.setCell(1, 3, 11037);
+data.setCell(1, 3, 14392);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'setup3')
+data.setCell(2, 2, 'com.villeos.Villeos_Web_app.Base_class')
+data.setCell(2, 3, 14322);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 29 seconds</span>
+              <span class="suite-total-time">Total running time: 53 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -243,14 +259,12 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">setup2</span>
-                <span class="method-start">11048 ms</span>
+                <span class="method-start">14418 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">TearDown</span>
-                <span class="method-start">29372 ms</span>
-              </div> <!-- configuration-test after -->
+              <div class="test-method">
+                <span class="method-name">setup3</span>
+                <span class="method-start">38841 ms</span>
+              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
