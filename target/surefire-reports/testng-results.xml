@@ -2,27 +2,23 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-10T20:27:34 IST" name="Suite" finished-at="2023-08-10T20:29:08 IST" duration-ms="93919">
+  <suite started-at="2023-08-11T10:06:41 IST" name="Suite" finished-at="2023-08-11T10:07:52 IST" duration-ms="71479">
     <groups>
     </groups>
-    <test started-at="2023-08-10T20:27:34 IST" name="Test" finished-at="2023-08-10T20:29:08 IST" duration-ms="93919">
+    <test started-at="2023-08-11T10:06:41 IST" name="Test" finished-at="2023-08-11T10:07:52 IST" duration-ms="71479">
       <class name="com.villeos.Villeos_Web_app.Base_class">
-        <test-method signature="Setup1()[pri:0, instance:com.villeos.Villeos_Web_app.Base_class@3f6b0be5]" started-at="2023-08-10T20:27:34 IST" name="Setup1" finished-at="2023-08-10T20:28:15 IST" duration-ms="40940" status="PASS">
+        <test-method signature="Setup1()[pri:0, instance:com.villeos.Villeos_Web_app.Base_class@7a419da4]" started-at="2023-08-11T10:06:41 IST" name="Setup1" finished-at="2023-08-11T10:06:52 IST" duration-ms="11302" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup1 -->
-        <test-method signature="setup2()[pri:0, instance:com.villeos.Villeos_Web_app.Base_class@3f6b0be5]" started-at="2023-08-10T20:28:15 IST" name="setup2" finished-at="2023-08-10T20:28:45 IST" duration-ms="30626" status="PASS">
+        <test-method signature="setup2()[pri:0, instance:com.villeos.Villeos_Web_app.Base_class@7a419da4]" started-at="2023-08-11T10:06:52 IST" name="setup2" finished-at="2023-08-11T10:07:27 IST" duration-ms="35135" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup2 -->
-        <test-method signature="setup3()[pri:0, instance:com.villeos.Villeos_Web_app.Base_class@3f6b0be5]" started-at="2023-08-10T20:28:45 IST" name="setup3" finished-at="2023-08-10T20:29:06 IST" duration-ms="20821" status="PASS">
+        <test-method signature="setup3()[pri:0, instance:com.villeos.Villeos_Web_app.Base_class@7a419da4]" started-at="2023-08-11T10:07:27 IST" name="setup3" finished-at="2023-08-11T10:07:52 IST" duration-ms="24930" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup3 -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.villeos.Villeos_Web_app.Base_class@3f6b0be5]" started-at="2023-08-10T20:29:06 IST" name="TearDown" finished-at="2023-08-10T20:29:08 IST" duration-ms="1423" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
       </class> <!-- com.villeos.Villeos_Web_app.Base_class -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
