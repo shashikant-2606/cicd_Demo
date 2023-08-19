@@ -1,25 +1,197 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="3" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-11T15:28:42 IST" name="Default suite" finished-at="2023-08-11T15:29:51 IST" duration-ms="68862">
+  <suite started-at="2023-08-19T07:49:02 IST" name="Suite" finished-at="2023-08-19T07:49:42 IST" duration-ms="39956">
     <groups>
     </groups>
-    <test started-at="2023-08-11T15:28:42 IST" name="Default test" finished-at="2023-08-11T15:29:51 IST" duration-ms="68862">
-      <class name="com.villeos.Villeos_Web_app.Base_class">
-        <test-method signature="Setup1()[pri:0, instance:com.villeos.Villeos_Web_app.Base_class@4f80542f]" started-at="2023-08-11T15:28:42 IST" name="Setup1" finished-at="2023-08-11T15:28:51 IST" duration-ms="9493" status="PASS">
+    <test started-at="2023-08-19T07:49:02 IST" name="chromeTest" finished-at="2023-08-19T07:49:14 IST" duration-ms="11697">
+      <class name="com.villeos.Villeos_Web_app.NewTest">
+        <test-method is-config="true" signature="Setup(java.lang.String)[pri:0, instance:com.villeos.Villeos_Web_app.NewTest@449a4f23]" started-at="2023-08-19T07:49:02 IST" name="Setup" finished-at="2023-08-19T07:49:07 IST" duration-ms="4739" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Setup1 -->
-        <test-method signature="setup2()[pri:0, instance:com.villeos.Villeos_Web_app.Base_class@4f80542f]" started-at="2023-08-11T15:28:51 IST" name="setup2" finished-at="2023-08-11T15:29:28 IST" duration-ms="36387" status="PASS">
+        </test-method> <!-- Setup -->
+        <test-method signature="url()[pri:0, instance:com.villeos.Villeos_Web_app.NewTest@449a4f23]" started-at="2023-08-19T07:49:07 IST" name="url" finished-at="2023-08-19T07:49:12 IST" duration-ms="5602" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup2 -->
-        <test-method signature="setup3()[pri:0, instance:com.villeos.Villeos_Web_app.Base_class@4f80542f]" started-at="2023-08-11T15:29:28 IST" name="setup3" finished-at="2023-08-11T15:29:51 IST" duration-ms="22873" status="PASS">
+        </test-method> <!-- url -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.villeos.Villeos_Web_app.NewTest@449a4f23]" started-at="2023-08-19T07:49:12 IST" name="Teardown" finished-at="2023-08-19T07:49:14 IST" duration-ms="1259" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup3 -->
-      </class> <!-- com.villeos.Villeos_Web_app.Base_class -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- Teardown -->
+      </class> <!-- com.villeos.Villeos_Web_app.NewTest -->
+    </test> <!-- chromeTest -->
+    <test started-at="2023-08-19T07:49:14 IST" name="firefoxTest" finished-at="2023-08-19T07:49:33 IST" duration-ms="19290">
+      <class name="com.villeos.Villeos_Web_app.NewTest">
+        <test-method is-config="true" signature="Setup(java.lang.String)[pri:0, instance:com.villeos.Villeos_Web_app.NewTest@5f049ea1]" started-at="2023-08-19T07:49:14 IST" name="Setup" finished-at="2023-08-19T07:49:22 IST" duration-ms="8669" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="url()[pri:0, instance:com.villeos.Villeos_Web_app.NewTest@5f049ea1]" started-at="2023-08-19T07:49:22 IST" name="url" finished-at="2023-08-19T07:49:28 IST" duration-ms="5349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- url -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.villeos.Villeos_Web_app.NewTest@5f049ea1]" started-at="2023-08-19T07:49:28 IST" name="Teardown" finished-at="2023-08-19T07:49:33 IST" duration-ms="5263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- com.villeos.Villeos_Web_app.NewTest -->
+    </test> <!-- firefoxTest -->
+    <test started-at="2023-08-19T07:49:33 IST" name="edgeTest" finished-at="2023-08-19T07:49:42 IST" duration-ms="8791">
+      <class name="com.villeos.Villeos_Web_app.NewTest">
+        <test-method is-config="true" signature="Setup(java.lang.String)[pri:0, instance:com.villeos.Villeos_Web_app.NewTest@5afa3c9]" started-at="2023-08-19T07:49:33 IST" name="Setup" finished-at="2023-08-19T07:49:35 IST" duration-ms="2319" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="url()[pri:0, instance:com.villeos.Villeos_Web_app.NewTest@5afa3c9]" started-at="2023-08-19T07:49:35 IST" name="url" finished-at="2023-08-19T07:49:41 IST" duration-ms="5982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- url -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.villeos.Villeos_Web_app.NewTest@5afa3c9]" started-at="2023-08-19T07:49:41 IST" name="Teardown" finished-at="2023-08-19T07:49:42 IST" duration-ms="479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- com.villeos.Villeos_Web_app.NewTest -->
+    </test> <!-- edgeTest -->
+    <test started-at="2023-08-19T07:49:42 IST" name="safariTest" finished-at="2023-08-19T07:49:42 IST" duration-ms="51">
+      <class name="com.villeos.Villeos_Web_app.NewTest">
+        <test-method is-config="true" signature="Setup(java.lang.String)[pri:0, instance:com.villeos.Villeos_Web_app.NewTest@606e4010]" started-at="2023-08-19T07:49:42 IST" name="Setup" finished-at="2023-08-19T07:49:42 IST" duration-ms="21" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
+            <message>
+              <![CDATA[safaridriver located at C:\usr\bin\safaridriver, but invalid
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: driver.version: SafariDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: safaridriver located at C:\usr\bin\safaridriver, but invalid
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: driver.version: SafariDriver
+at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:45)
+at org.openqa.selenium.safari.SafariDriver.generateExecutor(SafariDriver.java:94)
+at org.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:83)
+at org.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:79)
+at org.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:56)
+at org.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:47)
+at com.villeos.Villeos_Web_app.Base_class.Setup(Base_class.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="url()[pri:0, instance:com.villeos.Villeos_Web_app.NewTest@606e4010]" started-at="2023-08-19T07:49:42 IST" name="url" finished-at="2023-08-19T07:49:42 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
+            <message>
+              <![CDATA[safaridriver located at C:\usr\bin\safaridriver, but invalid
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: driver.version: SafariDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: safaridriver located at C:\usr\bin\safaridriver, but invalid
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: driver.version: SafariDriver
+at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:45)
+at org.openqa.selenium.safari.SafariDriver.generateExecutor(SafariDriver.java:94)
+at org.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:83)
+at org.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:79)
+at org.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:56)
+at org.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:47)
+at com.villeos.Villeos_Web_app.Base_class.Setup(Base_class.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- url -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.villeos.Villeos_Web_app.NewTest@606e4010]" started-at="2023-08-19T07:49:42 IST" name="Teardown" finished-at="2023-08-19T07:49:42 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- com.villeos.Villeos_Web_app.NewTest -->
+    </test> <!-- safariTest -->
+  </suite> <!-- Suite -->
 </testng-results>
