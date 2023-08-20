@@ -8,5 +8,7 @@ public class NewTest extends Base_class
   public void url() 
   {
 	  driver.get("https://www.amazon.in/");
+	  String s=driver.getTitle();
+	  System.out.println(s);
   }
 }
