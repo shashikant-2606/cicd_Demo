@@ -9,6 +9,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
+import org.openqa.selenium.safari.SafariOptions;
+import org.openqa.selenium.safari.SafariDriver;
 
 
 public class Base_class 
@@ -40,8 +42,12 @@ WebDriver driver;
 		  break;
 		  
 		 case "safari":
-			  //System.setProperty("webdriver.edge.driver", "C:\\Users\\My_Work\\Desktop\\Villeos_project\\cicdpractice\\driver\\msedgedriver.exe");
-			  driver=new SafariDriver();
+			 SafariOptions options = new SafariOptions();
+			 options.setUseTechnologyPreview(true);
+
+			 // For use with SafariDriver:
+			 SafariDriver driver = new SafariDriver(options);
+
 			  System.out.println("edge launch");
 			  break;
 		  
