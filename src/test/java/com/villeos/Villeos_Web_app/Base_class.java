@@ -42,13 +42,9 @@ WebDriver driver;
 		  break;
 		  
 		 case "safari":
-			 SafariOptions options = new SafariOptions();
-			 options.setUseTechnologyPreview(true);
+			 driver= new SafariDriver();
 
-			 // For use with SafariDriver:
-			 SafariDriver driver = new SafariDriver(options);
-
-			  System.out.println("edge launch");
+			  System.out.println("safari launch");
 			  break;
 		  
 		  default:
